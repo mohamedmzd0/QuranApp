@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "187712105795",
+    "firebase_url": "https://my-projects-97926.firebaseio.com",
+    "project_id": "my-projects-97926",
+    "storage_bucket": "my-projects-97926.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:187712105795:android:0332f6f2dc72eb40",
+        "android_client_info": {
+          "package_name": "com.example.mohamedabdelaziz.moslem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "187712105795-6rqt09krumvs9brqalf43otpaij4g252.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcbfo_NH6IbiTUOm7ZlorhVX4kF23Tv24"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

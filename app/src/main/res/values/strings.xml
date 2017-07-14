@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Translated Quran</string>
+    <string name="iammoslem">مصاحف مترجمه</string>
+    <string name="about_app_text">This App Help You To Get More Quran Translated To Many Language By Many Readers</string>
+    <string name="about_app_button">Ok</string>
+    <string name="checking_for_update">Checking For update</string>
+    <string name="problem_with_network">Problem With Network</string>
+    <string name="last_update">Your Have The Last Update</string>
+    <string name="update_availble">New Update Is Availble</string>
+    <string name="arabic">اللفه العربيه</string>
+    <string name="english">English</string>
+    <string name="retry">Retry</string>
+    <string name="feedback">Feed Back</string>
+    <string name="aboutapp">About Application</string>
+    <string name="update">Update</string>
+    <string name="error_try_again">"Error Try Again Later "</string>
+    <string name="no_data_try_again">no Data try again later</string>
+    <string name="network_connection">Network Connection Broken</string>
+    <string name="canceled">canceled</string>
+    <string name="message">mymessage</string>
+    <string name="title_activity_setting">Settings</string>
+    <string name="send">Send</string>
+    <string name="cencel">cencel</string>
+</resources>

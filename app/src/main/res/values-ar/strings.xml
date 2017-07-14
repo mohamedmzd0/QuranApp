@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">مصاحف مترجمه</string>
+    <string name="iammoslem">مصاحف مترجمه</string>
+    <string name="about_app_text">هذا التطبيق يقدم لك القران صوتيا مترجم الي الكثير من اللغات بصوت الكثير من الشيوخ</string>
+    <string name="about_app_button">قبول</string>
+    <string name="checking_for_update">التحقق من التحديثات</string>
+    <string name="problem_with_network">مشكله في الاتصال بالانترنت</string>
+    <string name="last_update">لا يوجد تحديثات</string>
+    <string name="update_availble">يوجد تحدث جديد</string>
+    <string name="arabic">اللفه العربيه</string>
+    <string name="english">English</string>
+    <string name="retry">اعاده المحاوله</string>
+    <string name="feedback">التغذيه المرتده</string>
+    <string name="aboutapp">التطبيق</string>
+    <string name="update">تحديث</string>
+    <string name="error_try_again">حدثت مشكله حاول مجددا</string>
+    <string name="no_data_try_again">لم يتم الحصول علي بيانات</string>
+    <string name="network_connection">فقد االاتصال بالانترنت</string>
+    <string name="canceled">تم الالغاء </string>
+    <string name="title_activity_setting">الاعدادات</string>
+    <string name="send">ارسال</string>
+    <string name="cencel">الغاء</string>
+</resources>

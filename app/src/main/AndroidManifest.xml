@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mohamedabdelaziz.moslem">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashScreen"
+            android:configChanges="screenSize|orientation|touchscreen|navigation|keyboard|layoutDirection|keyboardHidden|screenLayout">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="orientation|touchscreen|navigation|keyboard|layoutDirection|keyboardHidden|screenLayout" />
+        <activity
+            android:name=".MediaPlayer"
+            android:configChanges="orientation|screenSize|touchscreen|navigation|keyboard|layoutDirection|keyboardHidden|screenLayout" />
+
+        <receiver android:name=".services$myreciever">
+            <intent-filter>
+                <action android:name="android.intent.action.MEDIA_BUTTON" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".dialogactivity"
+            android:theme="@style/Base.Theme.AppCompat.Light.Dialog" />
+        <activity
+            android:name=".dialogactivity2"
+            android:theme="@style/Base.Theme.AppCompat.Light.Dialog" />
+
+        <service
+            android:name=".services"
+            android:enabled="true" />
+
+        <activity
+            android:name=".Setting"
+            android:label="@string/title_activity_setting"
+            android:theme="@style/Base.Theme.AppCompat.Light" />
+        <activity android:name=".dialod3"
+            android:theme="@style/Base.Theme.AppCompat.Light.Dialog" ></activity>
+    </application>
+
+</manifest>

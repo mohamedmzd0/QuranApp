@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_splash_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#511"
+    tools:context="com.example.mohamedabdelaziz.moslem.SplashScreen">
+    <FrameLayout
+        android:layout_margin="5dp"
+        android:background="#5FFF"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/icon"
+            android:layout_marginTop="10dp"
+            android:layout_width="130dp"
+            android:layout_height="130dp" />
+    <TextView
+        android:layout_marginTop="115dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/iammoslem"
+        android:elevation="20dp"
+        android:padding="20dp"
+        android:textSize="@dimen/textsize"
+        android:textColor="#FFF"
+        android:textAlignment="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:elevation="20dp"
+        android:visibility="gone"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:id="@+id/linear_button_languages"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_marginTop="75dp"
+        android:visibility="gone"
+        android:elevation="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/arabic_button"
+            android:text="@string/arabic"
+            android:onClick="arabic"
+            android:textColor="#FFF"
+            android:padding="10dp"
+            android:background="@drawable/button_layout"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/english_button"
+            android:text="@string/english"
+            android:onClick="english"
+            android:textColor="#FFF"
+            android:padding="10dp"
+            android:background="@drawable/button_layout"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <Button
+        android:visibility="gone"
+        android:id="@+id/retry"
+        android:onClick="retry"
+        android:layout_gravity="center"
+        android:text="@string/retry"
+        android:padding="10dp"
+        android:textColor="#FFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    </FrameLayout>
+</FrameLayout>
